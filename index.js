@@ -7,4 +7,4 @@ let messages = [
 
 messageElement.innerHTML = messages.reverse().map((m) => {
     return '<p>' + m + '</p>\n\n'
-});
+}).join('');
